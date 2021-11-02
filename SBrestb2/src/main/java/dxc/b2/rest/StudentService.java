@@ -6,11 +6,11 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 /**
- * this data will qyery the database and get the students required
+ * this data will query the database and get the students required
  * @author admin
  *
  */
-
+@Service
 public class StudentService {
 	
 List<Student> students = new ArrayList<>();
